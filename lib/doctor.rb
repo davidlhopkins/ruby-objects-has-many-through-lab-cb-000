@@ -9,7 +9,7 @@ class doctor
   end
 
   def new_appointment(date, patient)
-    song = Appointment.new(date, self, patient)
+    new_app = Appointment.new(date, self, patient)
   end
 
   def appointments
