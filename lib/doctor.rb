@@ -8,10 +8,6 @@ class doctor
     @@all << self
   end
 
-  def self.all
-    @@all
-  end
-
   def new_appointment(date, patient)
     song = Appointment.new(date, self, patient)
   end
