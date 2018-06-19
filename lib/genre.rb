@@ -1,5 +1,5 @@
 class Genre
-  attr_accessor :name, :artist, :genre
+  attr_accessor :name, :genre
 
   @@all = []
 
