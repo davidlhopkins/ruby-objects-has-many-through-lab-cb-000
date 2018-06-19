@@ -20,7 +20,6 @@ class Genre
 
   def artists
     songs.map {|i| i.artist}
-    end
   end
 
 end
